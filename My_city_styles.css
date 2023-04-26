@@ -1,0 +1,51 @@
+html {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: black;
+}
+
+header h1 {
+    color: lightseagreen;
+}
+
+/* mobile styles */
+@media only screen and (min-width: 0) and (max-width: 40em) { 
+
+    header {
+      padding-bottom: .1em;
+    }
+  
+    nav ul {
+      padding-left: 1em;
+    }
+  
+    header h1 {
+      padding-top: .5em;
+    }
+  }
+  
+  
+  /* desktop styles */
+  @media only screen and (min-width: 40.001em) { 
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  
+    main {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    main section {
+      flex-basis: 70%;
+      padding-right: 0.5em;
+    }
+  
+    main aside {
+      flex-basis: 30%;
+      padding-left: 0.5em;
+    }
+  }
+  
+  
